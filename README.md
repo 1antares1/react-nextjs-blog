@@ -21,7 +21,7 @@
 
 - [ReactJs](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
-- [remark](https://github.com/remarkjs/remark)
+- [Remark](https://github.com/remarkjs/remark)
 
 ## Getting Started
 

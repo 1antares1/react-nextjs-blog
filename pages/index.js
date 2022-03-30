@@ -16,6 +16,9 @@ export default function Home({ allPostsData }) {
     <Layout home={true}>
       <Head>
         <title>{siteTitle}</title>
+        <meta property="og:title" content="@1antares1 Simple Blog implemented using Next.js + React and themes included" key="title" />
+        <meta property="og:url" content="https://react-nextjs-blog-git-main-1antares1.vercel.app/" />
+        <meta property="og:image" content="https://react-nextjs-blog-git-main-1antares1.vercel.app/_next/image?url=%2Fimg%2F1antares1-ntf.jpg&w=256&q=75" />
       </Head>
       <aside>
         <ThemeChanger></ThemeChanger>

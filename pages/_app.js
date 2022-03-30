@@ -6,7 +6,7 @@ import "../styles/global.css";
 
 const App = ({ Component, pageProps }) => {
     return (
-        <ThemeProvider>
+        <ThemeProvider enableSystem={false}>
             <Component {...pageProps} />;
         </ThemeProvider>
     )
